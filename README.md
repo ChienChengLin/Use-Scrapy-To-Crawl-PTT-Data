@@ -42,7 +42,7 @@ $ virtualenv .env
 $ source .env/bin/activate
 ```
 - 啟動之後可以發現 shell 的提示字元前出現了虛擬環境的名稱，讓我們方便確認現在正使用哪個虛擬環境
-- 如果在系統中安裝有多個版本的 Python （例如 2.7 及 3.2 版），就可以透過 --python 參數去指定建立的虛擬環境要使用哪個版本
+- 如果在系統中安裝有多個版本的 Python （例如 2.7 及 3.2 版），就可以透過 --python 參數去指定建立的虛擬環境要使用哪個版本(以下教學仍採用Python 2.7版本)
 ```
 $ virtualenv .env3 --python=python3.2
 ```
